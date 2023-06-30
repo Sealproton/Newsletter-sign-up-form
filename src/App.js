@@ -6,7 +6,7 @@ import { UserContext } from "./components/context";
 import { Complete } from "./components/complete";
 
 function App() {
-  const [loginPass, setLoginPass] = useState(true);
+  const [loginPass, setLoginPass] = useState(false);
   const [type, setType] = useState("");
 
   return (
